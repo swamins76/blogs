@@ -12,6 +12,7 @@ const PostCreate = () => {
 });
 
     setTitle('');
+
 };
     return (
         <div>
@@ -23,7 +24,12 @@ const PostCreate = () => {
                 onChange={(e)=>setTitle(e.target.value)}
                 className="form-control"/>
                 </div>
+                <br/>
+                
             <button className="btn btn-primary">Submit</button>
+            <p id='postSuccess'>test</p>
+            <br/>
+
             </form>
         </div>
     );
